@@ -1,0 +1,241 @@
+body{
+    background-color: black;
+    overflow-x: hidden;
+    position: relative;
+    margin: 0;
+    padding: 0;
+
+}
+html{
+    width: 100vw !important;
+}
+
+.eclipse1{
+
+    position: absolute;
+    width: 20vh;
+    height: 40vh;
+    left: 0;
+    top: 60vh;
+    
+    background: #1C0CA6;
+    filter: blur(160px);
+
+}
+
+/* Ellipse 2 */
+.eclipse2{
+
+    position: absolute;
+    width: 25vh;
+    height: 50vh;
+    right: 0;
+    top: 13vh;
+    
+    background: #9508AB;
+    filter: blur(175px);
+}
+
+.garis1{
+position: absolute;
+    left: 0;
+    top: 20vh;
+    opacity: 13%;
+    rotate: 0;
+}
+
+.garis2{
+position: absolute;
+    right: 0;
+    top: 50vh;
+    opacity: 10%;
+    rotate: 0;
+}
+
+
+.lampuE1{
+/* Vector */
+
+position: absolute;
+width: 6vh;
+height: 5vh;
+left: 0.7vh;
+top: 28.5vh;
+
+background: radial-gradient(49.35% 49.35% at 49.98% 49.6%, #FFFFFF 0%, rgba(222, 222, 222, 0.87) 6%, rgba(28, 12, 166, 0.67) 16%, rgba(28, 12, 166, 0.49) 26%, rgba(28, 12, 166, 0.34) 37%, rgba(28, 12, 166, 0.22) 48%, rgba(28, 12, 166, 0.12) 59%, rgba(28, 12, 166, 0.05) 71%, rgba(28, 12, 166, 0.01) 84%, rgba(0, 0, 0, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+transform: matrix(-0.31, -0.95, 0.53, -0.85, 0, 0);
+}
+
+.lampuE12{
+/* Vector */
+
+position: absolute;
+width: 6vh;
+height: 5vh;
+left: 9.3vh;
+top: 48vh;
+
+background: radial-gradient(49.35% 49.35% at 49.98% 49.6%, #FFFFFF 0%, rgba(222, 222, 222, 0.87) 6%, rgba(28, 12, 166, 0.67) 16%, rgba(28, 12, 166, 0.49) 26%, rgba(28, 12, 166, 0.34) 37%, rgba(28, 12, 166, 0.22) 48%, rgba(28, 12, 166, 0.12) 59%, rgba(28, 12, 166, 0.05) 71%, rgba(28, 12, 166, 0.01) 84%, rgba(0, 0, 0, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+transform: matrix(-0.31, -0.95, 0.53, -0.85, 0, 0);
+}
+
+.lampuE2{
+/* Vector */
+
+position: absolute;
+width: 6vh;
+height: 5vh;
+right: 6.7vh;
+top: 67vh;
+
+background: radial-gradient(49.35% 49.35% at 49.98% 49.6%, #FFFFFF 0%, rgba(222, 222, 222, 0.87) 6%, rgba(166, 18, 189, 0.67) 16%, rgba(166, 18, 189, 0.49) 26%, rgba(166, 18, 189, 0.34) 37%, rgba(166, 18, 189, 0.22) 48%, rgba(166, 18, 189, 0.12) 59%, rgba(166, 18, 189, 0.05) 71%, rgba(166, 18, 189, 0.01) 84%, rgba(0, 0, 0, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+transform: matrix(-0.31, -0.95, 0.53, -0.85, 0, 0);
+
+}
+.lampuE22{
+/* Vector */
+
+position: absolute;
+width: 6vh;
+height: 5vh;
+right: 16vh;
+top: 75.5vh;
+
+background: radial-gradient(49.35% 49.35% at 49.98% 49.6%, #FFFFFF 0%, rgba(222, 222, 222, 0.87) 6%, rgba(166, 18, 189, 0.67) 16%, rgba(166, 18, 189, 0.49) 26%, rgba(166, 18, 189, 0.34) 37%, rgba(166, 18, 189, 0.22) 48%, rgba(166, 18, 189, 0.12) 59%, rgba(166, 18, 189, 0.05) 71%, rgba(166, 18, 189, 0.01) 84%, rgba(0, 0, 0, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+transform: matrix(-0.31, -0.95, 0.53, -0.85, 0, 0);
+
+}
+
+/* Phone */
+@media screen and (max-width:450px){
+
+}
+
+/* # Tablet */
+@media screen and (min-width:451px) and (max-width:900px){
+.garis2{
+top: 26vh;
+}
+
+.lampuE2{
+right: 6.7vh;
+top: 43.5vh;
+
+}
+
+.lampuE22{
+right: 16vh;
+top: 52vh;
+
+}
+
+}
+
+/* # Desktop */
+@media screen and (min-width:901px){
+    .garis2{
+        top: 26vh;
+
+    }
+
+    .lampuE2{
+        right: 6.7vh;
+        top: 43.5vh;
+
+    }
+
+    .lampuE22{
+        right: 16vh;
+        top: 52vh;
+
+    }
+
+}
+
+.halo{
+    color: white;
+    font-size: 4.3vw;
+    position: absolute;
+    z-index: 9;
+    top: 15vh;
+    left: calc(50% - 45vw/2 - 1px);
+
+}
+
+.kenal{
+    color: white;
+    font-size: 4.3vw;
+    /* position: absolute;
+    z-index: 10;
+    top: 15vh;
+    left: calc(50% - 13vw/2 - 1px);
+    margin-top: 10vh; */
+}
+
+.profile{
+    width: 22vw;
+    height: 30vw;
+    left: calc(50% - 22vw/2 - 1px);
+    top: 15vh;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+
+}
+
+.border{
+    /* border foto */
+
+    z-index: 8;
+    /* width: 22vw; */
+    height: 30vw;
+    background: #0D0D0D;
+    border-radius: 200px 200px 0px 0px;
+
+}
+
+.profil{
+    z-index: 9;
+    object-fit:contain;
+    width: 32vw;
+    height: 33.3vw;
+    margin-top: -31.5vw;
+    margin-left: -4vw;
+
+}
+
+.proDes{
+    width: 30vw;
+    height: 35vw;
+    left: calc(50% - 14vw/2 - 1px);
+    top: 15vh;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    justify-content:end;
+    align-items: end;
+
+}
+
+.kenDes{
+    color: white;
+    font-size: 2vw;
+
+}
+
+.dlm{
+    display: flex;
+    padding: 0;
+    gap: 0;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+}
+
+.dlm > h3, .dlm > h5{
+    margin: 0;
+}
